@@ -13,7 +13,7 @@ g  = 9.81     # gravity
 
 # Base motion (earthquake input)
 def x1(t):
-    return 0.0   # change if needed
+    return 2.0   # change if needed
 
 def dx1(t):
     return 0.0   # derivative of base motion
@@ -108,3 +108,4 @@ plt.xlabel("x2")
 plt.ylabel("v2")
 plt.title("Phase Portrait (Block)")
 plt.show()
+
